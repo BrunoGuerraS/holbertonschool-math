@@ -7,7 +7,7 @@ void display_complex_number(complex c)
 {
 	char i;
 
-	x = (c.im < 0) ? '-' : '+';
+	i = (c.im < 0) ? '-' : '+';
 
 	if (c.im == 0)
 	{
